@@ -5,9 +5,16 @@ public class Login {
 
     //Basic Login class
 
-    private String firstname, surname, password, dob;
+
+    //Users firstname surname password and date of birth are required to login
+    private String firstname;
+    private String surname;
+    private String password;
+    private String dob;
     //should be on multiple lines
 
+
+    //constructor
     public Login(String firstname, String surname, String password) {
         this.firstname = firstname;
         this.surname = surname;
@@ -15,7 +22,7 @@ public class Login {
     }
 
 
-
+    //getters and setters
     public String getFirstname() {
         return firstname;
     }
